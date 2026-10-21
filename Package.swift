@@ -7,7 +7,7 @@ let package = Package(
         .library(name: "WebimMobileSDK", targets: ["WebimMobileSDK"])
     ],
     dependencies: [
-        .package(url: "https://github.com/stephencelis/SQLite.swift.git", from: "0.15.0")
+        .package(url: "https://github.com/stephencelis/SQLite.swift.git", exact: "0.15.0")
     ],
     targets: [
         .target(
